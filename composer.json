@@ -1,0 +1,33 @@
+{
+    "name": "bizhub/cloner",
+    "description": "Laravel model cloner",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lex van der Woude",
+            "email": "lex@bizhub.co.nz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bizhub\\Cloner\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bizhub\\Cloner\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bizhub\\Cloner\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^9.3"
+    }
+}
